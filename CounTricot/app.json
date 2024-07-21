@@ -12,7 +12,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.frodrigues89.CounTricot"
     },
     "android": {
       "adaptiveIcon": {
@@ -22,6 +23,11 @@
     },
     "web": {
       "favicon": "../src/assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f8bb826a-b60c-4111-9def-46e1701f49eb"
+      }
     }
   }
 }
